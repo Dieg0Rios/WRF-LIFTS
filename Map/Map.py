@@ -7,7 +7,8 @@ import time
 OUTPUT = Path("balloon_map.html").resolve()
 
 def create_map():
-    m = folium.Map(location=[40.7128, -74.0060], zoom_start=10, width=600, height=400)
+    m = folium.Map(location=[18.2208, -66.5901], zoom_start=9, width=600, height=400)
+
 
     # Optional: single marker
     folium.Marker([40.7128, -74.0060], popup="NYC").add_to(m)
